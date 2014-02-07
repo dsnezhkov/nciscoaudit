@@ -1,4 +1,4 @@
-** This utility parses simple rules from the nessus .audit file  for Cisco IO and Cisco Firewall and matches them up with
+**This utility parses simple rules from the nessus .audit file  for Cisco IO and Cisco Firewall and matches them up with
 a static "show run config" file. This utility was made out of necessity, Nessus does not run against static config files,
 and requires a live system to audit.
 
@@ -54,13 +54,13 @@ Example output:
 
 ** Usage:
 
-$ ./bin/cisco_audit.rb  --help
+`$ ./bin/cisco_audit.rb  --help
 Usage: cisco_audit [options]
     -v, --verbose
     -a, --audit FILE
     -d, --data FILE
     -h
-$  ./bin/cisco_audit.rb   -a CIS_v3.0.1_Cisco_IOS_Level_1.audit -d FW-config.conf -v
+$  ./bin/cisco_audit.rb   -a CIS_v3.0.1_Cisco_IOS_Level_1.audit -d FW-config.conf -v`
 
 
 
