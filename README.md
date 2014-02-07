@@ -11,6 +11,12 @@ and requires a live system to audit.
 *The tool is not perfect but it makes the "first pass" attempts at pinpointing where to look further, with some guidance.
 
 
+* ![alt text](./misc/Selection_014.png  "Run with rules")
+
+* ![alt text](./misc/Selection_015.png  "Run with guidance")
+
+
+
 The report is broken down by rules: matched, positively violated,  negatively violated or OK
 Th ereport is color-coded (ANSI) for ease of digestion. 
 
